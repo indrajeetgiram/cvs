@@ -1,0 +1,76 @@
+/* Add these new styles at the top of your existing CSS file */
+.top-nav {
+  background: #2c3e50;
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-link {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  cursor: pointer;
+}
+
+.nav-link:hover {
+  color: #3498db;
+}
+
+/* Update the scroll-to-top button position to right */
+.scroll-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px; /* Changed from left to right */
+  background: #3498db;
+  color: white;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+
+/* Update footer styles for inline layout */
+.footer {
+  background: #2c3e50;
+  color: #fff;
+  padding: 15px 0;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.footer-text {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  margin: 0;
+}
+
+/* Keep all other existing styles */
