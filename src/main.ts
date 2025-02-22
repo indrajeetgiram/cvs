@@ -27,7 +27,8 @@ interface Project {
           <a class="nav-link" (click)="scrollToSection('angular')">Angular Projects</a>
           <a class="nav-link" (click)="scrollToSection('react')">React Projects</a>
           <a class="nav-link" (click)="scrollToSection('javascript')">JS Projects</a>
-          <a class="nav-link" href="/blog">Blog</a>
+          <a class="nav-link" (click)="scrollToSection('contact')">Contact</a>
+          <a class="nav-link" href="https://codewords.hashnode.dev/archive">Blog</a>
         </div>
       </div>
     </nav>
@@ -40,16 +41,16 @@ interface Project {
       <div class="container">
         <div class="header-content">
           <div class="header-text">
-            <h1 style="font-size: 3rem; margin-bottom: 20px;">Portfolio</h1>
+            <h1 style="font-size: 3rem; margin-bottom: 20px;">Indrajeet Shahurao Giram</h1>
             <p style="font-size: 1.2rem; color: #666;">Full Stack Angular Developer</p>
             <div class="header-social-links">
-              <a href="https://twitter.com/indrajeet" target="_blank" class="header-social-link">
+              <a href="https://x.com/CuriousIndra" target="_blank" class="header-social-link">
                 <i class="fab fa-twitter"></i>
               </a>
-              <a href="https://linkedin.com/in/indrajeet" target="_blank" class="header-social-link">
+              <a href="https://linkedin.com/in/indrajeetcv" target="_blank" class="header-social-link">
                 <i class="fab fa-linkedin"></i>
               </a>
-              <a href="https://wa.me/yournumber" target="_blank" class="header-social-link">
+              <a href="https://wa.me/+919518351482" target="_blank" class="header-social-link">
                 <i class="fab fa-whatsapp"></i>
               </a>
             </div>
@@ -132,20 +133,20 @@ interface Project {
       </div>
     </section>
 
-    <section class="section" style="background: #fff;">
+    <section id="contact" class="section" style="background: #fff;">
   <div class="container">
     <h2 class="section-title">Contact Me</h2>
     <div class="contact-container">
       <div class="contact-social">
         <h3>Connect With Me</h3>
         <div class="contact-social-links">
-          <a href="https://twitter.com/indrajeet" target="_blank" class="contact-social-link">
+          <a href="https://x.com/CuriousIndra" target="_blank" class="contact-social-link">
             <i class="fab fa-twitter"></i>
           </a>
-          <a href="https://linkedin.com/in/indrajeet" target="_blank" class="contact-social-link">
+          <a href="https://linkedin.com/in/indrajeetcv" target="_blank" class="contact-social-link">
             <i class="fab fa-linkedin"></i>
           </a>
-          <a href="https://wa.me/yournumber" target="_blank" class="contact-social-link">
+          <a href="https://wa.me/+919518351482" target="_blank" class="contact-social-link">
             <i class="fab fa-whatsapp"></i>
           </a>
         </div>
