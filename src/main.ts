@@ -55,7 +55,7 @@ interface Project {
             </div>
           </div>
           <div class="profile-image-container">
-            <img src="https://st5.depositphotos.com/1000975/66095/i/450/depositphotos_660956188-stock-photo-young-male-employee-unhappy-excessive.jpg" 
+            <img src="https://media.licdn.com/dms/image/v2/D4D03AQGef1-W4UlKGg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1726937130965?e=1745452800&v=beta&t=Bvs8ZBy5LBkX49VYwPJlU1p3uz_a5t7cQkKNIH_r5QI" 
                  alt="Professional headshot" 
                  class="profile-image">
           </div>
